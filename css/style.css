@@ -1,36 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    color: #e90941;
+}
+
 html {
-    font-family: 'Just Another Hand';
     height: 100%;
-    padding: 5% 15%;
-    margin: auto;
-    background-image: linear-gradient(#ffe3b9 20%, rgb(255, 253, 139) 100%);
+    background-color: #ffe0d8;
 }
 
-.paper{
-    background-color: #fffddf;
-    border: 1px solid #e7ab93;
-    box-shadow: #e68c69;
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+    overflow: hidden;
+    z-index: 1;
+    padding: 10px 5px;
+    background-color: #e90941;
 }
 
-table {    
-    margin: auto;
-    width: 70%;
+header nav {
+    display: inline-flex;
+    justify-content: space-between;
+    margin: 0 5px;
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: lighter;
-    letter-spacing: 3px;
-    padding: 30px 80px 0px;
-    border-bottom: 1px solid #9c6a56 ;
+nav a {
+    font-size: 2vw;
+    color: #ffe0d8;
+    padding: 0px 13px;
 }
 
-td {
-    padding-top: 30px;
+#home {
+    width: 100%;
+    min-height: 450px;
+    max-height: 600px;
+    margin-top: 50px;
+    background-color: #e90941;
 }
 
-.link{
-    font-size: 25px;
-    color: #000000;
-    padding: 0px 35px;
+#main-img {
+    max-width: 100%;
+    text-align: center;
+}
+
+#main-img img{
+    max-width: 100%;
+    min-height: 450px;
+    max-height: 600px;
+    position: relative;
+    bottom: 0;
+    object-fit: cover;
+    display: flex;
+    margin: 0 auto;
+}
+
+#main-img h1 {
+    font-size:20vw;
+    position: absolute;    
+    line-height: 1;
+    letter-spacing: 1vw;
+    padding: 5vh;
+    -webkit-text-fill-color: #e90941;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: #ffe0d8;
+}
+
+#about {
+    padding: 5% 10%;
+    width: 100%;
+    height: 500px;
+    position:relative; 
+    display: inline-flex;
+}
+
+#about #about-img{
+    
+    width: 60vh;
+    height: 30vw;
+}
+
+#projects {
+    width: 100%;
+    min-height: 500px;
+    max-height: 800px;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+#projects h1 {
+    color: #e90941;
+    text-align: center;
+    padding: 15px;
+}
+
+#projects table {
+    width: 90%;
+    max-height: 450px;
+    border: 2px solid #e90941;
+    margin: 10px auto;
+    padding: 20px 5px;
+}
+
+#projects table a {
+    margin: 100px;
+    padding: 20px 0;
+    font-size: 2vw;
+}
+
+#projects table a:hover {
+    color: #6131d2;
+}
+
+
+#contact {
+    width: 100%;
+    height: 150px;
+    background-color: #e90941;
 }
