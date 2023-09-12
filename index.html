@@ -4,50 +4,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Activities</title>
+    <title>CJ's Academic Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
-    <div class="paper">
-        <div class="header">
-            <h1>
-                MY ACTIVITES
-            </h1>
+    <header>
+        <img class="logo">
+        <nav>
+            <a href="#home">Home</a></li>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container" id="home">
+            <div id="main-img">
+                <h1> FULL STACK</h1>
+                <img src="https://i.pinimg.com/originals/ad/eb/cf/adebcf92ad09845da61d051de205496b.png" alt="">
+            </div>
+
         </div>
-        <table>
-            <tr>
-                <td>
-                    <a class="link" href="./act1.1/index.html">
-                        Fashion Blog
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a class="link" href="./act1.2/index.html">
-                        Wine Festival
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a class="link" href="./act2.1/index.html">
-                        Davies Burger
-                    </a>
-                </td>
-            </tr>
-        </table>
-        <p>
-            Click an activity to view
-        </p>
-    </div>
+        <div class="container" id="about">
 
+            <img id="about-img"
+                src="https://i.cbc.ca/1.5359228.1577206958!/fileImage/httpImage/smudge-the-viral-cat.jpg" alt="">
+            <h1>About Me</h1>
 
+            <p>BLah blah blah</p>
+        </div>
+        <div class="container" id="projects">
+            <h1>
+                ALL PROJECTS
+            </h1>
+            <table id="all-projects">
+                <tr>
+                    <td>
+                        <a class="link" href="./act1.1/index.html">
+                            Fashion Blog
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="link" href="./act1.2/index.html">
+                            Wine Festival
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a class="link" href="./act2.1/index.html">
+                            Davies Burger
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <p>
+                Click an activity to view
+            </p>
+        </div>
+    </main>
+    <footer class="container" id="contact">
+
+    </footer>
 </body>
 
 </html>
