@@ -1,120 +1,46 @@
 * {
-    margin: 0;
-    padding: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
     font-family: 'Saira Extra Condensed', sans-serif;
-    color: #e90941;
 }
 
 html {
+    background-image: linear-gradient(#e90941 40%, #ffab4b);
     height: 100%;
+}
+
+.main-home {
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    margin: 0;
+    font-size: 10vw;
+    text-shadow: 4px 4px 3px#bb0e0eb2;
+    letter-spacing: 1vw;
+    color: #ffe0d8;
+}
+
+#nav {
+    margin: 0;
+    display: inline-flex;
+    justify-content: space-between;
     background-color: #ffe0d8;
 }
 
-header {
-    width: 100%;
-    height: 50px;
-    display: flex;
-    position: fixed;
-    top: 0;
-    justify-content: space-between;
-    overflow: hidden;
-    z-index: 1;
-    padding: 10px 5px;
-    background-color: #e90941;
-}
-
-header nav {
-    display: inline-flex;
-    justify-content: space-between;
-    margin: 0 5px;
-}
-
-nav a {
-    font-size: 2vw;
-    color: #ffe0d8;
-    padding: 0px 13px;
-}
-
-#home {
-    width: 100%;
-    min-height: 450px;
-    max-height: 600px;
-    margin-top: 50px;
-    background-color: #e90941;
-}
-
-#main-img {
-    max-width: 100%;
-    text-align: center;
-}
-
-#main-img img {
-    max-width: 100%;
-    min-height: 450px;
-    max-height: 600px;
-    position: relative;
-    bottom: 0;
-    object-fit: cover;
-    display: flex;
-    margin: 0 auto;
-}
-
-#main-img h1 {
-    font-size: 18vw;
-    position: absolute;
-    line-height: 1;
-    letter-spacing: 1vw;
-    padding: 5vh;
-    color: #ffe0d8;
-    margin: auto;
-    width: 50%;
-}
-
-#about {
-    padding: 5% 10%;
-    width: 100%;
-    height: 500px;
-}
-
-
-#projects {
-    width: 100%;
-    min-height: 500px;
-    max-height: 800px;
-    text-align: center;
-    padding: 30px 10px;
-}
-
-#projects h1 {
+#nav a {
+    font-size: 4vw;
+    font-weight: bold;
     color: #e90941;
-    text-align: center;
-    padding: 15px;
+    padding: 0px 9.6vw;
 }
 
-#projects table {
-    width: 90%;
-    max-height: 450px;
-    border: 2px solid #e90941;
-    margin: 10px auto;
-    padding: 20px 5px;
-}
-
-#projects table a {
-    margin: 100px;
-    padding: 20px 0;
-    font-size: 3vw;
-}
-
-#projects table a:hover {
-    color: #6131d2;
-}
-
-
-#contact {
-    width: 100%;
-    height: 150px;
-    background-color: #e90941;
+#nav a:hover {
+    color: #fd3b00;
 }
