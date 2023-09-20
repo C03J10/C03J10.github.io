@@ -1,0 +1,56 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    text-align: center;
+}
+
+html {
+    background-color: #ffe0d8;
+    background-image: linear-gradient(#ffe0d8, #fdf7d6);
+    color: #e90941;
+    height: 100%;
+}
+
+div {
+    margin: 50px auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 10vw;
+    text-shadow: 4px 4px 3px #ffe96a6e;
+    letter-spacing: 1vw;
+    color: #e90941;
+}
+
+table {
+    width: 90%;
+    max-height: 90%;
+    border: 2px dotted #e90941;
+    margin: 10px auto;
+    padding: 20px 5px;
+}
+
+table a {
+    margin: 100px;
+    padding: 20px 0;
+    font-size: 4.2vw;
+    font-weight: bold;
+    color: #e90941;
+}
+
+table a:hover {
+    color: #fd3b00;
+}
+
+a{
+    font-size: 4.2vw;
+    font-weight: bold;
+    color: #e90941;
+}
+
+a:hover{
+    color: #fd3b00;
+}
