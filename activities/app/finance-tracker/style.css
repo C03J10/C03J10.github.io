@@ -1,0 +1,137 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    padding: 30px;
+}
+
+.profile {
+    padding: 10px 0;
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.profile button {
+    border: none;
+    border-radius: 50%;
+}
+
+.profile img {
+    width: 50px;
+    height: 50px;
+}
+
+.balance {
+    text-align: center;
+    align-content: center;
+    margin: 20px 0;
+    padding: 25px 5px;
+    width: 100%;
+    min-height: 25vh;
+    max-height: 30vh;
+    color: #f3f3ff;
+    background-image: linear-gradient(#9606c2 10%, #51d1e7 100%);
+    border-radius: 12px;
+}
+
+.balance h1 {
+    font-size: 7vw;
+    padding: 10px 0;
+}
+
+.balance h4 {
+    font-size: 2vw;
+}
+
+.overview {
+    margin: 20px 0;
+}
+
+.overview h1 { 
+    font-size: 2.5vw;
+    padding: 10px 0;
+}
+
+.overview .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .graph {
+    width: 45vw;
+    height: 50vh;
+    border-radius: 12px;
+    background-color: #a21fca;
+}
+
+.container .graph2 {
+    width: 45vw;
+    height: 50vh;
+    border-radius: 12px;
+    background-color: #58abcc;
+}
+
+.container p {
+    color: #f3f3ff;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 1.5vw;
+    font-weight: bold;
+}
+
+.history {
+    margin: 20px 0;
+    padding-bottom: 50px;
+}
+
+.history .filter-row {
+    padding: 10px 0;
+    display: inline-block;
+}
+
+.filter-row select input{
+    margin: auto 10px;
+}
+
+.filter-row .add-row {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.add-row button {
+    background-color: #1a1a1b;
+    color: #f3f3ff;
+    border-radius: 8px;
+}
+
+.history table {
+    table-layout: fixed;
+    width: 100%;
+    max-height: 80vh;
+    border-collapse: collapse;
+}
+
+.history table tr {
+    text-align: center;
+    height: 10vh;
+}
+
+.pagination {
+    display: flex;
+    margin: 10px auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.pagination a {
+    padding: 0 10px;
+    font-size: 2vw;
+    color: #1a1a1b;
+}
