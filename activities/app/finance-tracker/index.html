@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="profile">
+        <button type="button">
+            <img
+                src="https://images.vexels.com/media/users/3/236602/isolated/preview/c57b446604dbb847d39a5c42db94d6bd-cartoon-cut-out-cute-cat.png">
+        </button>
+    </div>
+
+    <div class="balance">
+
+        <h4>Total Balance</h4>
+        <h1>$56412.00</h1>
+
+    </div>
+
+    <div class="overview">
+
+        <h1>Overview</h1>
+        <div class="container">
+
+            <div class="graph">
+                <p>September 17, 2023 - September 23, 2023</p>
+            </div>
+            <div class="graph2">
+                <p>Daily Income-Expense Ratio | September 22, 2023</p>
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+    <div class="history">
+
+        <h1>History</h1>
+
+        <div class="filter-row">
+            <select name="sort" id="type">
+                <option value="all">All</option>
+                <option value="expenses">Expenses</option>
+                <option value="income">Income</option>
+            </select>
+
+            <select name="sort" id="date">
+                <option value="newest">Newest</option>
+                <option value="oldest">Oldest</option>
+            </select>
+
+            <input type="date">
+
+            <div class="add-row">
+                <button type="button">Add Income</button>
+                <button type="button">Add Expense</button>
+            </div>
+        </div>
+
+
+
+        <table border="1px">
+            <tr>
+                <th>
+                    Date
+                </th>
+                <th>
+                    Category
+                </th>
+                <th>
+                    Type
+                </th>
+                <th>
+                    Amount
+                </th>
+            </tr>
+            <tr>
+                <td>September 19, 2023</td>
+                <td>Income</td>
+                <td>Allowance</td>
+                <td>$100.00</td>
+            </tr>
+            <tr>
+                <td>September 19, 2023</td>
+                <td>Expenses</td>
+                <td>Food</td>
+                <td>$64.00</td>
+            </tr>
+            <tr>
+                <td>September 18, 2023</td>
+                <td>Income</td>
+                <td>Allowance</td>
+                <td>$100.00</td>
+            </tr>
+        </table>
+
+        <div class="pagination">
+            <a href="">&laquo;</a>
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">&raquo;</a>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
