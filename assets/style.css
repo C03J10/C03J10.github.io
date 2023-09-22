@@ -21,7 +21,7 @@ html {
 
 h1 {
     margin: 0;
-    font-size: 10vw;
+    font-size: 8vw;
     text-shadow: 4px 4px 3px#bb0e0eb2;
     letter-spacing: 1vw;
     color: #ffe0d8;
@@ -35,10 +35,10 @@ h1 {
 }
 
 #nav a {
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: bold;
     color: #e90941;
-    padding: 0px 9.6vw;
+    padding: 0px 8.5vw;
 }
 
 #nav a:hover {
